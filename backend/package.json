@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-with-custom-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anex-jerin/Chatbot-With-Custom-Data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anex-jerin/Chatbot-With-Custom-Data/issues"
+  },
+  "homepage": "https://github.com/anex-jerin/Chatbot-With-Custom-Data#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
