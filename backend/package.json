@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev":"nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/anex-jerin/Chatbot-With-Custom-Data#readme",
   "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.6",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "langchain": "^0.0.92",
+    "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
