@@ -10,10 +10,10 @@ export const sotreDataVector = async () => {
   try {
     // chat gpt api key
     const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-    //   Loading data form pdf
+    // Loading data form pdf
     const loader = new PDFLoader('./pdf/ManchesterUnited.pdf');
     const rawDocs = await loader.load();
-    //   splitting data to chunks
+    // splitting data to chunks
 
     const textSplitter = new RecursiveCharacterTextSplitter({
       chunkSize: 1000,
